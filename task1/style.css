@@ -65,7 +65,7 @@ section{
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to bottom left, blue,red,yellow);
+  background-image: linear-gradient(to bottom left, orange,white,green);
 }
 
 .home .content{
