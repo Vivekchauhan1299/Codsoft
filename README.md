@@ -4,4 +4,7 @@ these project i developed for codsoft IT services and consulting company under i
 ========================================
 task 1
 1.To run Task one simply click on index.html page
-preview  : https://vivekchauhan1299.github.io/Codsoft/task1/
+ 
+ 
+ 
+ preiew of task 1 : https://vivekchauhan1299.github.io/Codsoft/task1/
