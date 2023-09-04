@@ -1,4 +1,4 @@
- *{
+  *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -87,6 +87,12 @@
    align-items: center;
    justify-content: flex-start;
   
+ }
+ .sig{
+                                             /* sig class */
+   padding-left: 155px;
+   font-size: 25px;
+   font-family: 'Great Vibes', cursive; 
  }
  .main-content h4{
    font-size: 1.6rem;
