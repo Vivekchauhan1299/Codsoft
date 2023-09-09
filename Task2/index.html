@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+     <!-- external css link -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
 
     <!-- icon links -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -16,19 +18,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
 
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
 
 </head>
-
 <body>
     <!-- header -->
-    <header>
-        <a href="#" class="logo">Frontend <br><span>Developer</span></a>
 
-        <div id="menu" class="fas fa-bars"></div>
+    <header class="head">
+        <a href="#" class="logo">Frontend <br><span>Developer</span></a>
 
         <ul class="navlist">
             <li><a href="#home">Home</a></li>
@@ -48,18 +47,19 @@
         <div class="main-content">
             <h4>Hi,There!</h4>
             <h1>I'm<span>Vivek Chauhan</span></h1>
-
-            <p>I am Frontend Developer as well as Designer. <br>
-                currently I am student at Mumbai University in VPM rzshah college and currently i am studying
+            <p>Iam Frontend Developer as well as Designer.  
+                currently I am student at Mumbai University in VPM rzshah college and  I am studying
                 BSC.CS program in final year
                 I am working with Codsoft under internship program.
             </p>
+             
 
             <div class="social">
                 <a href="https://www.facebook.com/" target="_blank"><i class="ri-facebook-circle-fill"></i></a>
                 <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="ri-instagram-fill"></i></a>
                 <a href="https://www.twitter.com/" target="_blank"><i class="ri-twitter-fill"></i></a>
                 <a href="https://in.linkedin.com/" target="_blank"><i class="ri-linkedin-fill"></i></a>
+                <a href="https://github.com/Vivekchauhan1299/Codsoft" target="_blank"><i class="ri-github-fill"></i></a>
             </div>
 
             <div class="main-btn">
@@ -67,26 +67,21 @@
                 <a href="#" class="btn">Download CV</a>
 
             </div>
-
-        </div>
-
+         </div>
+         <img class="imgg" src="Assets/img/back.png" height="350px" width="350px"> 
     </section>
-    <div class="imgg">
-        <!-- <img src="../task2/Assets/img/front.jpg" alt="" height="300" width="300">   jkjjjkhk hj jhjfhfdhklghhgyhlkhgiertitehgiet hgiertkj -->
-    </div>
-
-    <!-- About -->
+<!-- About -->
     <section class="about" id="about">
 
         <div class="about-img">
-             <img src="Assets/img/back.png"> 
+            <img src="Assets/img/back.png">
             <p class="sig">Vivek Chauhan</p>
 
         </div>
 
         <div class="about-text">
-            <h1 class="aboutme">About Me</h1>
-            <h2>I am Frontend<span> Developer</span><br> & Web Designer</h2>
+            <h1 class="aboutme"><a href="#About"></a>About me</h1>
+            <h2 class="front">I am Frontend<span> Developer</span><br> & Web Designer</h2>
             <div class="exp-area">
                 <p class="exp">
                     Experience:
@@ -117,9 +112,9 @@
     <!-- skill section -->
     <section class="secti">
         <div class="ski">
-            <p style="font-family: 'Great Vibes', cursive;">Skills</p>
+            <span>Skills</span>
         </div>
-        < class="skill">
+        <div class ="skill">
             <img src="Assets/img/figma.png">
             <img src="Assets/img/canva.png">
             <img src="Assets/img/github.png">
@@ -132,19 +127,54 @@
             <img src="Assets/img/python.png">
             <img src="Assets/img/mysql.png">
             <img src="Assets/img/trio.png">
-            <img src="Assets/img/red.jpg">
+            <!-- <img src="Assets/img/red.jpg"> -->
         </div>
     </section>
+ 
+<section id="contact">
+        <div class="section-content">
+            <h1 class="section-header" align="center">Get in <span> Touch with </span> us</h1><br>
+         </div>
+    <div class="contact-section"><h3 class="contacts"><span>Contact</span></h3>
+        <div class="container">
+            <form>
+                <div class="form-line">
+                    
+                        <div class="form-group">
+                            <label for="exampleInputUsername"><p>Your name</p></label>
+                                <input type="text" class="form-control" id="" placeholder=" Enter Name">
+                        </div><br>
+                      <div class="form-group">
+                            <label for="exampleInputEmail"><p>E-mail Address</p></label>
+                            <input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
+                      </div><br>	
+                      <div class="form-group">
+                            <label for="telephone"><p>Mobile No.</p></label>
+                            <input type="tel" class="form-control" id="telephone" placeholder=" Enter 10-digit mobile no.">
+                      </div>
+                </div><vr>
+                  <div class="message">
+                      <div class="form-group">
+                          <label for ="description"><p>  Message</p></label><br>
+                           <textarea  class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+                      </div><br>
+                        <div>
 
-<section class ="proj">
-        <div class="myp">
-            <!-- <p style="font-family: 'Great Vibes', cursive;">My Projects</p> -->
+                          <button type="button" class="btn"><i class="paper-plane" aria-hidden="true"></i>  Send Message</button>
+                        </div>
+                      
+                    </div>
+            </form>
         </div>
-
-
-    
+    </div>
 </section>
-    <!-- javascript link -->
+
+
+<div footer class="footer">
+    <p> Copyright &copy; 2023 All Rights Reserved by <span>VIVEK CHAUHAN</span></p>
+</footer>
+</div>
+   <!-- javascript link -->
     <script src="js/script.js"></script>
 </body>
 
