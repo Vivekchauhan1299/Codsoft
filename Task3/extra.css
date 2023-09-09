@@ -1,0 +1,33 @@
+*{
+    background-image: linear-gradient(rgb(222, 179, 153), 
+    rgb(209, 107, 71)  );
+}
+.text-center{
+    text-align: center;
+    font-weight: 700;
+    color: rgb(200, 25, 83);
+  }
+  
+  .mx-auto{
+    margin: auto;
+  }
+  
+  .flex{
+    display:flex;
+  } 
+  .flex-col{
+    flex-direction: column;
+  }
+  
+.items-center{
+    align-items: center;
+  }
+  .button{
+    font-size: 120%;
+    color: white;
+    background-color: rgb(48, 50, 50);
+  }
+  .button:hover{
+     color: rgb(8, 8, 8);
+     background-color: aliceblue;
+  }
